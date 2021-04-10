@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\表">
+      <UniqueIdentifier>{c716e74f-76bf-4b85-9d57-6d739848507c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\窗口">
+      <UniqueIdentifier>{f9d80044-f686-4899-9331-a91ed1420d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\接口支持">
+      <UniqueIdentifier>{fa62d3ff-ecf9-4f15-a161-3cbb1ec67799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\其他">
+      <UniqueIdentifier>{0cfcd2a5-07de-4a05-9613-c1ef4538dc5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\接口支持">
+      <UniqueIdentifier>{4596af1b-7fa8-4ac1-a1c2-5cf45e791ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\其他">
+      <UniqueIdentifier>{9185f21c-b503-44d8-8ef7-2e436588d74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\表">
+      <UniqueIdentifier>{93e0c83a-8549-4a97-81e2-5f6d8ff0ca73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\窗口">
+      <UniqueIdentifier>{4dc19a34-81dd-4591-98c5-f184e275c3de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SafeSoldier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeSoldierDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CLEARWND.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="PEWND.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="PROCESSWND.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="SERVERWND.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="SODRWND.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="WNDEUM.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportTable.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDir.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="SECTION.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadAndMoudle.h">
+      <Filter>头文件\窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPe.h">
+      <Filter>头文件\接口支持</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\接口支持</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\其他</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\其他</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportTable.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTable.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="ReLoc.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSTable.h">
+      <Filter>头文件\表</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>头文件\接口支持</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerPort.h">
+      <Filter>头文件\接口支持</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SafeSoldier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeSoldierDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CLEARWND.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="PEWND.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="PROCESSWND.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="SERVERWND.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="SODRWND.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="WNDEUM.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDir.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportTable.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="SECTION.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPe.cpp">
+      <Filter>源文件\接口支持</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadAndMoudle.cpp">
+      <Filter>源文件\窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\其他</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportTable.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceTable.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSTable.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="ReLoc.cpp">
+      <Filter>源文件\表</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>源文件\接口支持</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerPort.cpp">
+      <Filter>源文件\接口支持</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SafeSoldier.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SafeSoldier.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SafeSoldier.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
